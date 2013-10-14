@@ -1,9 +1,3 @@
-D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Assets\ApplicationIcon.png
-D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
-D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
-D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
-D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
-D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Assets\Tiles\IconicTileSmall.png
 D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\SoundBoard.dll
 D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\SoundBoard.pdb
 D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\AppManifest.xaml

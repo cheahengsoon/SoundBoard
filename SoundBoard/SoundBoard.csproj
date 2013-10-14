@@ -127,31 +127,77 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\AlignmentGrid.png" />
-    <Content Include="Assets\ApplicationIcon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Tiles\IconicTileSmall.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\AppBar\cancel.png" />
+    <Content Include="Assets\AppBar\check.png" />
+    <Content Include="Assets\AppBar\microphone.png" />
+    <Content Include="Assets\AppBar\play.png" />
+    <Content Include="Assets\AppBar\save.png" />
+    <Content Include="Assets\ApplicationIcon.png" />
+    <Content Include="Assets\Audio\Animals\Cat Kitten.wav" />
+    <Content Include="Assets\Audio\Animals\Cat Meow.wav" />
+    <Content Include="Assets\Audio\Animals\Chimpanzee.wav" />
+    <Content Include="Assets\Audio\Animals\Cow.wav" />
+    <Content Include="Assets\Audio\Animals\Crickets.wav" />
+    <Content Include="Assets\Audio\Animals\Dog.wav" />
+    <Content Include="Assets\Audio\Animals\Dolphin.wav" />
+    <Content Include="Assets\Audio\Animals\Duck.wav" />
+    <Content Include="Assets\Audio\Animals\Horse Gallop.wav" />
+    <Content Include="Assets\Audio\Animals\Horse Walk.wav" />
+    <Content Include="Assets\Audio\Animals\Lion.wav" />
+    <Content Include="Assets\Audio\Animals\Pig.wav" />
+    <Content Include="Assets\Audio\Animals\Rooster.wav" />
+    <Content Include="Assets\Audio\Animals\Sheep.wav" />
+    <Content Include="Assets\Audio\Cartoons\Boing.wav" />
+    <Content Include="Assets\Audio\Cartoons\Bronk.wav" />
+    <Content Include="Assets\Audio\Cartoons\Bugle charge.wav" />
+    <Content Include="Assets\Audio\Cartoons\Laser.wav" />
+    <Content Include="Assets\Audio\Cartoons\Out Here.wav" />
+    <Content Include="Assets\Audio\Cartoons\Splat.wav" />
+    <Content Include="Assets\Audio\Taunts\Cackle.wav" />
+    <Content Include="Assets\Audio\Taunts\Clock Ticking.wav" />
+    <Content Include="Assets\Audio\Taunts\Dial up.wav" />
+    <Content Include="Assets\Audio\Taunts\Drum roll.wav" />
+    <Content Include="Assets\Audio\Taunts\Elevator Music.wav" />
+    <Content Include="Assets\Audio\Taunts\Laugh - Evil.wav" />
+    <Content Include="Assets\Audio\Taunts\Laugh.wav" />
+    <Content Include="Assets\Audio\Taunts\Sad Trombone.wav" />
+    <Content Include="Assets\Audio\Taunts\Sarcastic Ooo.wav" />
+    <Content Include="Assets\Audio\Taunts\Sigh.wav" />
+    <Content Include="Assets\Audio\Taunts\Snore.wav" />
+    <Content Include="Assets\Audio\Taunts\Wrong Price.wav" />
+    <Content Include="Assets\Audio\Taunts\Yawn.wav" />
+    <Content Include="Assets\Audio\Warnings\Air horn.wav" />
+    <Content Include="Assets\Audio\Warnings\Air Raid.wav" />
+    <Content Include="Assets\Audio\Warnings\Alarm Clock - Bell.wav" />
+    <Content Include="Assets\Audio\Warnings\Alarm Clock - Electric.wav" />
+    <Content Include="Assets\Audio\Warnings\Backing up.wav" />
+    <Content Include="Assets\Audio\Warnings\Bell - Church.wav" />
+    <Content Include="Assets\Audio\Warnings\Bell - School.wav" />
+    <Content Include="Assets\Audio\Warnings\Fog horn.wav" />
+    <Content Include="Assets\Audio\Warnings\Glass breaking.wav" />
+    <Content Include="Assets\Audio\Warnings\Missle alert.wav" />
+    <Content Include="Assets\Audio\Warnings\Police - UK.wav" />
+    <Content Include="Assets\Audio\Warnings\Police - US.wav" />
+    <Content Include="Assets\Audio\Warnings\Vuvuzela.wav" />
+    <Content Include="Assets\StoreImages\ScreenShot_720p_01.png" />
+    <Content Include="Assets\StoreImages\ScreenShot_720p_02.png" />
+    <Content Include="Assets\StoreImages\ScreenShot_WVGA_01.png" />
+    <Content Include="Assets\StoreImages\ScreenShot_WVGA_02.png" />
+    <Content Include="Assets\StoreImages\ScreenShot_WXGA_01.png" />
+    <Content Include="Assets\StoreImages\ScreenShot_WXGA_02.png" />
+    <Content Include="Assets\StoreImages\Soundboard300x300.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png" />
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png" />
+    <Content Include="Assets\Tiles\IconicTileSmall.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

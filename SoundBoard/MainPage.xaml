@@ -37,7 +37,8 @@
          -->
 
         <!--Pivot Control-->
-        <phone:Pivot Title="MY APPLICATION">
+        <phone:Pivot Title="{Binding Path=LocalizedResources.ApplicationTitle, 
+            Source={StaticResource LocalizedStrings}}">
             <!--Pivot item one-->
             <phone:PivotItem Header="first">
                 <!--Double line list with text wrapping-->
