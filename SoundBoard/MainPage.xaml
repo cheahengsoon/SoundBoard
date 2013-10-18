@@ -38,6 +38,9 @@
     </phone:PhoneApplicationPage.Resources>
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
+        
+        <MediaElement Name="AudioPlayer"
+                      Volume="1"/>
 
         <!-- LOCALIZATION NOTE:
             To localize the displayed strings copy their values to appropriately named
@@ -67,7 +70,8 @@
                 <phone:LongListSelector Margin="0,0,-12,0" ItemsSource="{Binding Animals.Items}"
                                         LayoutMode="Grid"
                                         GridCellSize="150,150"
-                                        ItemTemplate="{StaticResource SoundTileDataTemplate}">
+                                        ItemTemplate="{StaticResource SoundTileDataTemplate}"
+                                        SelectionChanged="LongListSelector_SelectionChanged">
                 </phone:LongListSelector>
             </phone:PivotItem>
 
@@ -77,7 +81,8 @@
                 <phone:LongListSelector Margin="0,0,-12,0" ItemsSource="{Binding Cartoons.Items}"
                                         LayoutMode="Grid"
                                         GridCellSize="150,150"
-                                        ItemTemplate="{StaticResource SoundTileDataTemplate}">
+                                        ItemTemplate="{StaticResource SoundTileDataTemplate}"
+                                        SelectionChanged="LongListSelector_SelectionChanged">
                 </phone:LongListSelector>
             </phone:PivotItem>
             
@@ -86,7 +91,8 @@
                 <phone:LongListSelector Margin="0,0,-12,0" ItemsSource="{Binding Taunts.Items}"
                                         LayoutMode="Grid"
                                         GridCellSize="150,150"
-                                        ItemTemplate="{StaticResource SoundTileDataTemplate}">
+                                        ItemTemplate="{StaticResource SoundTileDataTemplate}"
+                                        SelectionChanged="LongListSelector_SelectionChanged">
                 </phone:LongListSelector>
             </phone:PivotItem>
 
@@ -95,7 +101,8 @@
                 <phone:LongListSelector Margin="0,0,-12,0" ItemsSource="{Binding Warnings.Items}"
                                         LayoutMode="Grid"
                                         GridCellSize="150,150"
-                                        ItemTemplate="{StaticResource SoundTileDataTemplate}">
+                                        ItemTemplate="{StaticResource SoundTileDataTemplate}"
+                                        SelectionChanged="LongListSelector_SelectionChanged">
                 </phone:LongListSelector>
             </phone:PivotItem>
 
@@ -104,7 +111,8 @@
                 <phone:LongListSelector Margin="0,0,-12,0" ItemsSource="{Binding CustomSounds.Items}"
                                         LayoutMode="Grid"
                                         GridCellSize="150,150"
-                                        ItemTemplate="{StaticResource SoundTileDataTemplate}">
+                                        ItemTemplate="{StaticResource SoundTileDataTemplate}"
+                                        SelectionChanged="LongListSelector_SelectionChanged">
                 </phone:LongListSelector>
             </phone:PivotItem>
 
