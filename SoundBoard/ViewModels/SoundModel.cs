@@ -8,6 +8,7 @@ namespace SoundBoard.ViewModels
 {
     public class SoundModel
     {
+
         public SoundGroup CustomSounds { get; set; }
         public SoundGroup Animals { get; set; }
         public SoundGroup Cartoons { get; set; }
@@ -15,6 +16,8 @@ namespace SoundBoard.ViewModels
         public SoundGroup Warnings { get; set; }
 
         public bool IsDataLoaded { get; set; }
+
+        
 
         public void LoadData()
         {
@@ -297,5 +300,7 @@ namespace SoundBoard.ViewModels
 
             return data;
         }
+
+       
     }
 }

@@ -40,7 +40,7 @@ namespace SoundBoard
                 if (viewModel == null) 
                 {
                     viewModel = new SoundModel();
-                    viewModel.LoadData();
+                    viewModel.LoadData(); //Need this because the headers and tiles load at different times, without this the headers of the pivots won't appear.
                 }
                 return viewModel;
             }
