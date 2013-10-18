@@ -13,12 +13,13 @@ namespace SoundBoard
 {
     public partial class App : Application
     {
-        private static MainViewModel viewModel = null;
+        //private static MainViewModel viewModel = null;
 
         /// <summary>
         /// A static ViewModel used by the views to bind against.
         /// </summary>
         /// <returns>The MainViewModel object.</returns>
+        /*
         public static MainViewModel ViewModel
         {
             get
@@ -30,7 +31,18 @@ namespace SoundBoard
                 return viewModel;
             }
         }
+        */
+        private static SoundModel viewModel = null;
+        public static SoundModel ViewModel
+        {
+            get
+            {
+                if (viewModel == null)
+                    viewModel = new SoundModel();
 
+                return viewModel;
+            }
+        }
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>
