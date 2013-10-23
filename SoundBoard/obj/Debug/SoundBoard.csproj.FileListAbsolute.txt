@@ -17,3 +17,5 @@ D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Coding4Fun.Toolkit
 D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
 D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\obj\Debug\SoundBoard.csprojResolveAssemblyReference.cache
 D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\obj\Debug\RecordAudio.g.cs
+D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Newtonsoft.Json.dll
+D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Newtonsoft.Json.xml

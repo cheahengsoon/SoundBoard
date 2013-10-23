@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO.IsolatedStorage;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +18,7 @@ namespace SoundBoard.ViewModels
         public SoundGroup Warnings { get; set; }
 
         public bool IsDataLoaded { get; set; }
-
+        public const string CustomSoundKey = "CustomSound";
         
 
         public void LoadData()
@@ -26,7 +28,25 @@ namespace SoundBoard.ViewModels
             Cartoons = CreateCartoonsGroup();
             Taunts = CreateTauntsGroup();
             Warnings = CreateWarningsGroup();
+            CustomSounds = LoadCustumSounds();
             IsDataLoaded = true;
+        }
+
+        private SoundGroup LoadCustumSounds()
+        {
+            SoundGroup data;
+            string dataFromAppSettings;
+            if (IsolatedStorageSettings.ApplicationSettings.TryGetValue(CustomSoundKey, out dataFromAppSettings))
+            {
+                data = JsonConvert.DeserializeObject<SoundGroup>(dataFromAppSettings);
+            }
+            else
+            {
+                data = new SoundGroup();
+                data.Title = "mine";
+            }
+            return data;
+
         }
 
         private SoundGroup CreateAnimalsGroup()

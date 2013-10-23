@@ -10,6 +10,8 @@ using Microsoft.Phone.Shell;
 using SoundBoard.Resources;
 using SoundBoard.ViewModels;
 using Coding4Fun.Toolkit.Controls;
+using System.IO;
+using System.IO.IsolatedStorage;
 
 namespace SoundBoard
 {
@@ -47,9 +49,20 @@ namespace SoundBoard
             //verifying our sender is actually SoundData
             if (data == null)
                 return;
-
-            AudioPlayer.Source = new Uri(data.FilePath, UriKind.RelativeOrAbsolute);
-
+            if (File.Exists(data.FilePath))
+            {
+                AudioPlayer.Source = new Uri(data.FilePath, UriKind.RelativeOrAbsolute);
+            }
+            else 
+            {
+                using (var storageFolder = IsolatedStorageFile.GetUserStoreForApplication())
+                {
+                    using (var stream = new IsolatedStorageFileStream(data.FilePath, FileMode.Open, storageFolder))
+                    {
+                        AudioPlayer.SetSource(stream);
+                    }
+                }
+            }
             selector.SelectedItem = null;
         }
 

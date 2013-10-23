@@ -1,5 +1,5 @@
-﻿<xapCache source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\SoundBoard_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="10/23/2013 11:44:08 AM">
-  <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\obj\Debug\SoundBoard.dll" archivePath="SoundBoard.dll" lastWriteTime="10/23/2013 11:44:05 AM" />
+﻿<xapCache source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\SoundBoard_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="10/23/2013 3:49:14 PM">
+  <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\obj\Debug\SoundBoard.dll" archivePath="SoundBoard.dll" lastWriteTime="10/23/2013 3:49:12 PM" />
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="10/14/2013 9:54:21 AM" />
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Assets\AppBar\cancel.png" archivePath="Assets\AppBar\cancel.png" lastWriteTime="10/14/2013 9:54:18 AM" />
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Assets\AppBar\check.png" archivePath="Assets\AppBar\check.png" lastWriteTime="10/14/2013 9:54:18 AM" />
@@ -66,12 +66,14 @@
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\ReadMe.Coding4Fun.Toolkit.txt" archivePath="ReadMe.Coding4Fun.Toolkit.txt" lastWriteTime="10/23/2013 10:30:19 AM" />
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="10/23/2013 10:30:09 AM" />
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="10/23/2013 10:30:09 AM" />
-  <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/23/2013 10:33:33 AM" />
+  <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/23/2013 3:43:34 PM" />
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\packages\Coding4Fun.Toolkit.Audio.2.0.7\lib\windowsphone8\Coding4Fun.Toolkit.Audio.dll" archivePath="Coding4Fun.Toolkit.Audio.dll" lastWriteTime="10/23/2013 10:30:06 AM" />
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\packages\Coding4Fun.Toolkit.Controls.2.0.7\lib\windowsphone8\Coding4Fun.Toolkit.Controls.dll" archivePath="Coding4Fun.Toolkit.Controls.dll" lastWriteTime="10/23/2013 10:30:06 AM" />
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\packages\Coding4Fun.Toolkit.Net.2.0.7\lib\windowsphone8\Coding4Fun.Toolkit.Net.dll" archivePath="Coding4Fun.Toolkit.Net.dll" lastWriteTime="10/23/2013 10:30:06 AM" />
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\packages\Coding4Fun.Toolkit.Storage.2.0.7\lib\windowsphone8\Coding4Fun.Toolkit.Storage.dll" archivePath="Coding4Fun.Toolkit.Storage.dll" lastWriteTime="10/23/2013 10:30:06 AM" />
+  <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\packages\Newtonsoft.Json.5.0.8\lib\portable-net45+wp80+win8\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="10/23/2013 3:33:26 PM" />
+  <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\packages\Newtonsoft.Json.5.0.8\lib\portable-net45+wp80+win8\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="10/23/2013 3:33:26 PM" />
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="10/14/2013 9:54:21 AM" />
   <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="10/14/2013 9:54:21 AM" />
-  <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/14/2013 9:44:45 AM" />
+  <file source="D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/23/2013 2:18:27 PM" />
 </xapCache>
