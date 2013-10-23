@@ -39,3 +39,7 @@ Thumbs.db
 *.wav
 **/Assets/*
 *.xap
+*/Bin/*
+**/Debug/*
+**/Release/*
+

@@ -87,6 +87,8 @@ namespace SoundBoard
         private void RecordAudioChecked(object sender, RoutedEventArgs e)
         {
             PlayAudio.IsEnabled = false;
+            ApplicationBar.IsVisible = false;
+            RotateCircle.Begin();
             _recorder.Start();
 
         }
@@ -98,6 +100,7 @@ namespace SoundBoard
             SaveTempAudio(_recorder.Buffer);
             PlayAudio.IsEnabled = true;
             ApplicationBar.IsVisible = true;
+            RotateCircle.Stop();
         }
 
         private void SaveTempAudio(MemoryStream buffer)

@@ -12,7 +12,20 @@
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
-
+    
+    
+    <phone:PhoneApplicationPage.Resources>
+        <Storyboard x:Name="RotateCircle" RepeatBehavior="Forever">
+            <DoubleAnimation
+                Duration="0:0:4"
+                To="360"
+                Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"
+                Storyboard.TargetName="ReelGrid"
+                d:IsOptimized="True" />
+            
+        </Storyboard>
+        
+    </phone:PhoneApplicationPage.Resources>
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
@@ -38,7 +51,11 @@
                 <ToggleButton Content="Record" 
                               Checked="RecordAudioChecked"
                               Unchecked="RecordAudioUnchecked"/>
-                <Grid Width="200" Height="200">
+                <Grid Width="200" Height="200" Name="ReelGrid"
+                      RenderTransformOrigin=".5,.5">
+                    <Grid.RenderTransform>
+                        <CompositeTransform />
+                    </Grid.RenderTransform>
                     <Ellipse Fill="{StaticResource PhoneAccentBrush}" />
                     <Ellipse Height="20" Width="20" 
                              Fill="{StaticResource PhoneForegroundBrush}"/>
