@@ -42,4 +42,9 @@ Thumbs.db
 */Bin/*
 **/Debug/*
 **/Release/*
+*.sap
+*.txt
+*/Perflogs/*
+/packages/*
+
 
