@@ -11,3 +11,8 @@ D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\obj\Debug\SoundBoard.csproj.
 D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\obj\Debug\SoundBoard.dll
 D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\obj\Debug\SoundBoard.pdb
 D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\obj\Debug\XapCacheFile.xml
+D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Coding4Fun.Toolkit.Audio.dll
+D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Coding4Fun.Toolkit.Net.dll
+D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\Bin\Debug\Coding4Fun.Toolkit.Storage.dll
+D:\DY's Documents\Dropbox\WP8\SoundBoard\SoundBoard\obj\Debug\SoundBoard.csprojResolveAssemblyReference.cache

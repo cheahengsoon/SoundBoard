@@ -9,6 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using SoundBoard.Resources;
 using SoundBoard.ViewModels;
+using Coding4Fun.Toolkit.Controls;
 
 namespace SoundBoard
 {
@@ -75,7 +76,8 @@ namespace SoundBoard
 
         void aboutAppBar_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            AboutPrompt aboutMe= new AboutPrompt();
+            aboutMe.Show("DYDYD", null, "njlxyaoxinwei@msn.cn");
         }
 
         void recordAudioAppBar_Click(object sender, EventArgs e)
