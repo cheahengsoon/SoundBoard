@@ -61,20 +61,29 @@ namespace SoundBoard.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to add.
+        ///   Looks up a localized string similar to About.
         /// </summary>
-        public static string AppBarButtonText {
+        public static string AppBarAbout {
             get {
-                return ResourceManager.GetString("AppBarButtonText", resourceCulture);
+                return ResourceManager.GetString("AppBarAbout", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Menu Item.
+        ///   Looks up a localized string similar to Record.
         /// </summary>
-        public static string AppBarMenuItemText {
+        public static string AppBarRecord {
             get {
-                return ResourceManager.GetString("AppBarMenuItemText", resourceCulture);
+                return ResourceManager.GetString("AppBarRecord", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string AppBarSave {
+            get {
+                return ResourceManager.GetString("AppBarSave", resourceCulture);
             }
         }
         
@@ -102,15 +111,6 @@ namespace SoundBoard.Resources {
         public static string ResourceLanguage {
             get {
                 return ResourceManager.GetString("ResourceLanguage", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sample Runtime Property Value.
-        /// </summary>
-        public static string SampleProperty {
-            get {
-                return ResourceManager.GetString("SampleProperty", resourceCulture);
             }
         }
     }

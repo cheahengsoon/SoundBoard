@@ -128,13 +128,13 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>SoundBoard</value>
   </data>
-  <data name="SampleProperty" xml:space="preserve">
-    <value>Sample Runtime Property Value</value>
+  <data name="AppBarSave" xml:space="preserve">
+    <value>Save</value>
   </data>
-  <data name="AppBarButtonText" xml:space="preserve">
-    <value>add</value>
+  <data name="AppBarRecord" xml:space="preserve">
+    <value>Record</value>
   </data>
-  <data name="AppBarMenuItemText" xml:space="preserve">
-    <value>Menu Item</value>
+  <data name="AppBarAbout" xml:space="preserve">
+    <value>About</value>
   </data>
 </root>
